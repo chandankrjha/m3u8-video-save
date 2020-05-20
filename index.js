@@ -32,6 +32,10 @@ async function saveTsFiles(folderName) {
 
 const folderName = 'test';
 const startingTime = new Date().getTime();
+// for single m3u8 file
+saveTsFiles(folderName);
+
+// for constantly updating stream file
 const testInterval = setInterval(() => {
 	saveTsFiles(folderName);
 	const currentTime = new Date().getTime();
