@@ -13,6 +13,7 @@
     "axios": "^0.19.2",
     "fluent-ffmpeg": "^2.1.2",
     "fs": "^0.0.1-security",
-    "m3u8-parser": "^4.4.0"
+    "m3u8-parser": "^4.4.0",
+    "stdio": "^2.1.1"
   }
 }
